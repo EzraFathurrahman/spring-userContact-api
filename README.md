@@ -1,9 +1,8 @@
-# **User Contact API**
 # This is API documentation for this Project
 
 
-# Address API Spec
 
+# Address API Specification document
 ## Create Address
 
 Endpoint : POST /api/contacts/{idContact}/addresses
