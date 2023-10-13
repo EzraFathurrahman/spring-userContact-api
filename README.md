@@ -1,9 +1,6 @@
 # This is API documentation for this Project
 
 
-
-# User API Spec
-
 ## Register User
 
 Endpoint : POST /api/users
@@ -13,9 +10,9 @@ Request Body :
 
 ```json
 {
-  "username" : "khannedy",
+  "username" : "ezra",
   "password" : "rahasia",
-  "name" : "Eko Kurniawan Khannedy" 
+  "name" : "ezra fathurrahman" 
 }
 ```
 
@@ -43,7 +40,7 @@ Request Body :
 
 ```json
 {
-  "username" : "khannedy",
+  "username" : "ezra",
   "password" : "rahasia" 
 }
 ```
@@ -80,8 +77,8 @@ Response Body (Success) :
 ```json
 {
   "data" : {
-    "username" : "khannedy",
-    "name" : "Eko Kurniawan Khannedy"
+    "username" : "ezra",
+    "name" : "ezra fathurrahman"
   }
 }
 ```
@@ -106,7 +103,7 @@ Request Body :
 
 ```json
 {
-  "name" : "Eko Khannedy", // put if only want to update name
+  "name" : "ezra fathurrahman", // put if only want to update name
   "password" : "new password" // put if only want to update password
 }
 ```
@@ -116,8 +113,8 @@ Response Body (Success) :
 ```json
 {
   "data" : {
-    "username" : "khannedy",
-    "name" : "Eko Kurniawan Khannedy"
+    "username" : "ezra",
+    "name" : "ezra fathurrahman"
   }
 }
 ```
